@@ -133,7 +133,7 @@
 		line-height: 2;
 		letter-spacing: 0.2em;
 		text-transform: uppercase;
-	}
+	}
 
 		@media screen and (max-width: 1680px) {
 
@@ -400,8 +400,13 @@
 		background-color:rgba(245, 245, 233, 0.7);
 		border-radius: 10px;
 		margin-bottom: 160px;
-		cursor: default;
 		text-align: center;
+	}
+	
+	#main{
+		max-width: 100%;
+		min-width: 27em;
+		opacity: 0.95;
 		-moz-transform-origin: 50% 50%;
 		-webkit-transform-origin: 50% 50%;
 		-ms-transform-origin: 50% 50%;
@@ -410,12 +415,6 @@
 		-webkit-transform: rotateX(0deg);
 		-ms-transform: rotateX(0deg);
 		transform: rotateX(0deg);
-	}
-	
-	#main{
-		max-width: 100%;
-		min-width: 27em;
-		opacity: 0.95;
 		-moz-transition: opacity 1s ease, -moz-transform 1s ease;
 		-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
 		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
@@ -424,7 +423,7 @@
 	
 	#addition {
 		min-width: 250px;
-		max-width: 500px;
+		max-width: 1000px;
 	}
 	
 	#addition:before{
@@ -440,15 +439,16 @@
 			background: url("images/arrow.svg") no-repeat;
 	}
 	
+	
 	#addition:after {
 			content: '';
 			display: block;
 			position: absolute;
-			top: -9em;
+			top: -8.5em;
 			left: 50%;
-			height: 9em;
+			height: 8.5em;
 			border-left: solid 1px #fff;
-		}
+	}
 	
 	
 
