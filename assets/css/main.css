@@ -415,7 +415,6 @@
 		border-radius: 10px;
 		margin-bottom: 160px;
 		cursor: default;
-		opacity: 0.95;
 		text-align: center;
 		-moz-transform-origin: 50% 50%;
 		-webkit-transform-origin: 50% 50%;
@@ -429,6 +428,10 @@
 		-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
 		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
 		transition: opacity 1s ease, transform 1s ease;
+	}
+	
+	#main{
+		opacity: 0.95;
 	}
 	
 	#addition {
@@ -591,4 +594,8 @@
 
 		body.is-ie #wrapper {
 			height: 100%;
+		}
+		
+		.hiddensection {
+			opacity:0;
 		}
