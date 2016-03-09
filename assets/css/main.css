@@ -113,6 +113,10 @@
 			background-repeat: repeat,			no-repeat;
 			background-size: 100px 100px, cover;
 			background-position: top left,		center center;
+			-moz-transition: opacity 1.75s ease-out;
+			-webkit-transition: opacity 1.75s ease-out;
+			-ms-transition: opacity 1.75s ease-out;
+			transition: opacity 1.75s ease-out;
 		}
 
 		body.is-loading:after {
@@ -129,7 +133,7 @@
 		line-height: 2;
 		letter-spacing: 0.2em;
 		text-transform: uppercase;
-	}
+	}
 
 		@media screen and (max-width: 1680px) {
 
